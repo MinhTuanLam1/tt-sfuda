@@ -3,8 +3,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from base_networks import *
-from utils import *
+from .base_networks import *
+from .utils import *
 
 __all__ = ['UNet']
 
